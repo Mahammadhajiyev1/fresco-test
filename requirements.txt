@@ -1,0 +1,11 @@
+# Runtime dependencies. Same list as [project].dependencies in pyproject.toml (a test keeps them in sync).
+# Use this when `pip install -e .` cannot build in place (see README > Setup); then run with PYTHONPATH=src.
+pymupdf>=1.24.3
+pydantic>=2.6
+anthropic>=1.9
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart
+streamlit>=1.35
+requests
+pandas
